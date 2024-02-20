@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.form_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+ol{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px;
+}
+ol li{
+    padding-bottom: 15px;
+}
+ol li button{
+    margin-left: 10px;
+}
